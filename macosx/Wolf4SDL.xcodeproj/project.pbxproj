@@ -16,11 +16,13 @@
 		4F4F2A6C1BA5C88B0049C8E4 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4F2A6B1BA5C88B0049C8E4 /* CoreFoundation.framework */; };
 		4F4F2A6E1BA5C8930049C8E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4F2A6D1BA5C8930049C8E4 /* CoreGraphics.framework */; };
 		4F4F2A701BA5C89C0049C8E4 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4F2A6F1BA5C89C0049C8E4 /* CoreServices.framework */; };
-		4F4F2A751BA5D52F0049C8E4 /* libSDL2_mixer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4F2A731BA5D52F0049C8E4 /* libSDL2_mixer.a */; };
-		4F4F2A761BA5D52F0049C8E4 /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4F2A741BA5D52F0049C8E4 /* libSDL2.a */; };
 		4F4F2A781BA5D57A0049C8E4 /* ForceFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4F2A771BA5D57A0049C8E4 /* ForceFeedback.framework */; };
 		4F4F2A7A1BA5D5860049C8E4 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4F2A791BA5D5850049C8E4 /* CoreAudio.framework */; };
 		4F4F2A7C1BA5FF870049C8E4 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4F2A7B1BA5FF870049C8E4 /* libiconv.dylib */; };
+		6E7FEF4D20EFFAEA0083D0E7 /* SDL2_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7FEF4B20EFFAEA0083D0E7 /* SDL2_mixer.framework */; };
+		6E7FEF4E20EFFAEA0083D0E7 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7FEF4C20EFFAEA0083D0E7 /* SDL2.framework */; };
+		6E7FEF5120EFFB0B0083D0E7 /* SDL2.framework in Resources */ = {isa = PBXBuildFile; fileRef = 6E7FEF4F20EFFB0A0083D0E7 /* SDL2.framework */; };
+		6E7FEF5220EFFB0B0083D0E7 /* SDL2_mixer.framework in Resources */ = {isa = PBXBuildFile; fileRef = 6E7FEF5020EFFB0B0083D0E7 /* SDL2_mixer.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		D901F4FD0FC0DBCB0040C290 /* fmopl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D901F4CB0FC0DBCB0040C290 /* fmopl.cpp */; };
@@ -74,6 +76,10 @@
 		4F4F2A771BA5D57A0049C8E4 /* ForceFeedback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ForceFeedback.framework; path = System/Library/Frameworks/ForceFeedback.framework; sourceTree = SDKROOT; };
 		4F4F2A791BA5D5850049C8E4 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		4F4F2A7B1BA5FF870049C8E4 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		6E7FEF4B20EFFAEA0083D0E7 /* SDL2_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_mixer.framework; path = ../../../../../../../Library/Frameworks/SDL2_mixer.framework; sourceTree = "<group>"; };
+		6E7FEF4C20EFFAEA0083D0E7 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		6E7FEF4F20EFFB0A0083D0E7 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2.framework; sourceTree = "<group>"; };
+		6E7FEF5020EFFB0B0083D0E7 /* SDL2_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2_mixer.framework; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Wolf4SDL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wolf4SDL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D901F4C10FC0DB520040C290 /* SDL_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_mixer.framework; path = /Library/Frameworks/SDL_mixer.framework; sourceTree = "<absolute>"; };
@@ -135,11 +141,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E7FEF4D20EFFAEA0083D0E7 /* SDL2_mixer.framework in Frameworks */,
+				6E7FEF4E20EFFAEA0083D0E7 /* SDL2.framework in Frameworks */,
 				4F4F2A7C1BA5FF870049C8E4 /* libiconv.dylib in Frameworks */,
 				4F4F2A7A1BA5D5860049C8E4 /* CoreAudio.framework in Frameworks */,
 				4F4F2A781BA5D57A0049C8E4 /* ForceFeedback.framework in Frameworks */,
-				4F4F2A751BA5D52F0049C8E4 /* libSDL2_mixer.a in Frameworks */,
-				4F4F2A761BA5D52F0049C8E4 /* libSDL2.a in Frameworks */,
 				4F4F2A701BA5C89C0049C8E4 /* CoreServices.framework in Frameworks */,
 				4F4F2A6E1BA5C8930049C8E4 /* CoreGraphics.framework in Frameworks */,
 				4F4F2A6C1BA5C88B0049C8E4 /* CoreFoundation.framework in Frameworks */,
@@ -193,6 +199,8 @@
 		29B97314FDCFA39411CA2CEA /* Untitled */ = {
 			isa = PBXGroup;
 			children = (
+				6E7FEF5020EFFB0B0083D0E7 /* SDL2_mixer.framework */,
+				6E7FEF4F20EFFB0A0083D0E7 /* SDL2.framework */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -272,6 +280,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6E7FEF4B20EFFAEA0083D0E7 /* SDL2_mixer.framework */,
+				6E7FEF4C20EFFAEA0083D0E7 /* SDL2.framework */,
 				4F4F2A7B1BA5FF870049C8E4 /* libiconv.dylib */,
 				4F4F2A791BA5D5850049C8E4 /* CoreAudio.framework */,
 				4F4F2A771BA5D57A0049C8E4 /* ForceFeedback.framework */,
@@ -299,7 +309,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Wolf4SDL" */;
 			buildPhases = (
-				4F4F2A721BA5C9C00049C8E4 /* ShellScript */,
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
@@ -346,28 +355,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E7FEF5120EFFB0B0083D0E7 /* SDL2.framework in Resources */,
+				6E7FEF5220EFFB0B0083D0E7 /* SDL2_mixer.framework in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				D94B84D50FC0F2F800EADB6F /* wolf4sdl.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		4F4F2A721BA5C9C00049C8E4 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "mkdir -p ../build/dep/lib\nmkdir -p ../build/dep/include\nmkdir -p ../build/tmp\nif [ ! -f ../build/dep/lib/libSDL2.a ]; then\n    /usr/bin/curl -L -o ../build/tmp/tmp.tar.gz https://dl.dropboxusercontent.com/u/5103936/build-prereqs/wolf4sdl-osx/sdl2.tar.gz\n    pushd ../build/tmp\n    tar -zxf tmp.tar.gz\n    popd\n    mv ../build/tmp/*.a ../build/dep/lib\n    mv ../build/tmp/*.h ../build/dep/include\n    rm ../build/tmp/*\nfi";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D11072C0486CEB800E47090 /* Sources */ = {
@@ -424,6 +419,10 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
@@ -445,6 +444,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				GCC_AUTO_VECTORIZATION = YES;
 				GCC_ENABLE_SSE3_EXTENSIONS = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
